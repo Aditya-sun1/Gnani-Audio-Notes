@@ -1,0 +1,38 @@
+# Local credentials and data
+Gnani - Internship Task.pdf
+**/.env
+**/.env.*
+!**/.env.example
+backend/audionotes.db*
+backend/storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Frontend dependencies and generated output
+frontend/.git/
+frontend/AGENTS.md
+frontend/CLAUDE.md
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+.vscode/
+
+# Local test recordings
+/test_*.wav
+/backend/test_sample.wav
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
